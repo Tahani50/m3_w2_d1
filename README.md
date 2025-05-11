@@ -1,16 +1,27 @@
-# m3_w2_d1
+# 🌍 Country Info App
 
-A new Flutter project.
+A Flutter application that fetches and displays a list of countries using the REST Countries API. It shows each country’s name, capital, continent, and flag in a responsive, scrollable interface.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Fetches real-time data from the REST Countries API
+- Displays:
+  - Country name
+  - Capital city
+  - Continent
+  - Flag image
+- Shows a loading indicator while fetching data
+- Clean and modular code structure (API, Service, Model, UI layers)
 
-A few resources to get you started if this is your first Flutter project:
+## 📦 Folder Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+lib/
+├── models/ # Data models (Country, Flags, Name)
+├── provider/ # API layer (CountryApi class)
+├── service/ # Business logic layer (CountryService)
+├── screens/ # UI screens (HomePage)
+├── main.dart # App entry point
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📡 API Used
+
+- [REST Countries v3.1 API](https://restcountries.com/#api-endpoints-v3-all)
