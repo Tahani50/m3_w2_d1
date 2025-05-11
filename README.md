@@ -16,10 +16,20 @@ A Flutter application that fetches and displays a list of countries using the RE
 ## 📦 Folder Structure
 
 lib/
+
+
 ├── models/ # Data models (Country, Flags, Name)
+
+
 ├── provider/ # API layer (CountryApi class)
+
+
 ├── service/ # Business logic layer (CountryService)
+
+
 ├── screens/ # UI screens (HomePage)
+
+
 ├── main.dart # App entry point
 
 ## 📡 API Used
